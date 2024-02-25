@@ -1,0 +1,36 @@
+@import '../../../variables.scss';
+
+.card {
+    width: 350px;
+    height: 350px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: $primary-color;
+
+    > Button {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+}
+
+.cardName {
+    color: $secondary-color;
+    margin-top: 20px;
+    background-color: $backround-color-opacity;
+    padding: 8px 40px;
+
+    border-radius: 43px;
+    border: 1px solid #54585C;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+}

@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+
+.devicesScreen {
+    margin-top: 40px;
+    color: $primary-color;
+    font-size: 1.2rem;
+
+    > h3 {
+        margin-top: 0;
+        color: $secondary-color;
+    }
+}
+
+.devicesContent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}

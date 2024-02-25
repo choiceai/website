@@ -1,0 +1,17 @@
+@import '../../../variables.scss';
+
+.personalScreen {
+    color: $secondary-color;
+    font-size: 1.6rem;
+}
+
+.digitalTool{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.yellow {
+    color: $primary-color;
+}

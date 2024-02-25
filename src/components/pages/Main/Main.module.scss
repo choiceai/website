@@ -1,0 +1,86 @@
+@import '../../../variables.scss';
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+.main {
+    display: block;
+}
+
+.welcomeSection {
+    background-image: url('../../../img/mainOfferBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.second {
+    margin-top: 5%;
+}
+
+.devicesSection {
+    background-image: url('../../../img/devicesBG.png');
+    background-position: top;
+}
+
+.metricSection {
+    margin-top: 0;
+    background-image: url('../../../img/metricBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.trainerSection, .problemSection, .chatSection, .personalSection, .habbitsSection, .lastCallSection, .footer {
+    margin-top: 80px;
+}
+
+.chat {
+    width: 100%;
+}
+
+.lastCallSection {
+    
+    background-image: url('../../../img/lastCallBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.lastCall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > Button {
+        margin-top: 10%;
+    }
+}
+
+.footerSection {
+    width: 100vw;
+    height: 180px;
+    background-color: $second-background-color;
+    border-radius: 43px 43px 0 0 ;
+
+    .container {
+        height: 100%;
+    }
+    
+}
+
+.footerInMain {
+    height: 100%;
+}

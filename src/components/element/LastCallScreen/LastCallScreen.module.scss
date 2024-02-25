@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+
+.lastCallScreen {
+    font-size: 3rem;
+    color: $secondary-color;
+    padding-top: 20px;
+    > h1 {
+        width: 60%;
+    };
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.yellow {
+    color: $primary-color;
+}

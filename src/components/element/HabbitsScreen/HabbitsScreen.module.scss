@@ -1,0 +1,16 @@
+@import '../../../variables.scss';
+
+.habbitsScreen {
+    color: $secondary-color;
+    font-size: 1.6rem;
+}
+
+.screenshots {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.yellow {
+    color: $primary-color;
+}
