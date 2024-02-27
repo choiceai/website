@@ -1,8 +1,9 @@
 import styles from './NavButton.module.scss'
 
-const NavButton = ({ children }) => {
+const NavButton = ({ children, onClick }) => {
+  console.log(onClick)
   return (
-    <button>
+    <button onClick={onClick}>
         { children }
     </button>
   )

@@ -1,0 +1,23 @@
+@import '../../../variables.scss';
+
+.menuHeader {
+    display: flex;
+    align-items: center;
+
+}
+
+.headerButtons {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > button {
+        margin-left: 20px;
+    }
+}
+
+.headerButtonsItems {
+    > i {
+        padding: 0;
+    }
+}

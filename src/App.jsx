@@ -1,14 +1,27 @@
+import { useState } from 'react';
 import './App.scss';
-import { Navigation } from './components/UI/Navigation/Navigation';
-import { NavButton } from './components/UI/NavButton/NavButton';
-import { Header } from './components/element/Header/Header';
+import { Menu } from './components/element/Menu/Menu';
+
+
 import { Main } from './components/pages/Main/Main';
 
 function App() {
+
+  const [isMenuShow, setMenuShow] = useState(false);
+
+  const toogleMenu = () => {
+    setMenuShow(!isMenuShow)
+  }
+
+  console.log(isMenuShow)
+
   return (
-    <div className="App">
-      <Main />
-    </div>
+      <>
+        <Menu isMenuShow={isMenuShow} toogleMenu={toogleMenu}/>
+        <div className="App" style={ isMenuShow ? {display: "none"} : {}}>
+          <Main toogleMenu={toogleMenu}/>
+        </div>
+      </>
   );
 }
 

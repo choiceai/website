@@ -15,14 +15,14 @@ import { Button } from "../../UI/Button/Button"
 import { Footer } from "../../element/Footer/Footer"
 
 
-const Main = () => {
+const Main = ({ toogleMenu }) => {
   const [activeProblem, setActiveProblem] = useState(1);
 
   return (
     <div className={styles.main}>
         <section className={styles.welcomeSection}>
             <div className={styles.container}>
-                <Header />
+                <Header toogleMenu={toogleMenu}/>
                 <MainOffer />
             </div>
         </section>
