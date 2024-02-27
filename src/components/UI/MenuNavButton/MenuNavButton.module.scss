@@ -1,10 +1,7 @@
 @import '../../../variables.scss';
 
-.menuNavButton {
-    margin-bottom: 20px;
-
-    > a {
-        font-size: 3rem;
+.link {
+    font-size: 3rem;
         font-weight: 500;
         text-decoration: none;
         color: $secondary-color;
@@ -31,5 +28,8 @@
         &:hover {
             color: $primary-color;
         }
-    }
+}
+
+.menuNavButton {
+    margin-bottom: 20px;
 }

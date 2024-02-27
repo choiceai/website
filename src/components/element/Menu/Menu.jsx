@@ -14,9 +14,9 @@ const Menu = ({ isMenuShow, toogleMenu }) => {
                   <MenuHeader toogleMenu={toogleMenu}/>
                   <div className={styles.menuLinks}>
                     <MenuNavButton>Блог</MenuNavButton>
-                    <MenuNavButton>Контакты</MenuNavButton>
-                    <MenuNavButton>Продукты</MenuNavButton>
-                    <MenuNavButton>О нас</MenuNavButton>
+                    <MenuNavButton onClick={toogleMenu} to={"/contact"}>Контакты</MenuNavButton>
+                    <MenuNavButton onClick={toogleMenu} to={"/"}>Продукты</MenuNavButton>
+                    <MenuNavButton onClick={toogleMenu} to={"/about"}>О нас</MenuNavButton>
                     <MenuNavButton>Для бизнеса</MenuNavButton>
                   </div>
                 </div>

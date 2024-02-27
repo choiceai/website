@@ -1,9 +1,11 @@
 import styles from './MenuNavButton.module.scss'
 
-const MenuNavButton = ({ children }) => {
+import { Link } from 'react-router-dom'
+
+const MenuNavButton = ({ children, to, onClick }) => {
   return (
     <div className={styles.menuNavButton}>
-        <a href="#">{children}</a>
+        <Link onClick={onClick} to={to} className={styles.link}>{children}</Link>
     </div>
   )
 }

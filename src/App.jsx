@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom'
+
 import './App.scss';
 import { Menu } from './components/element/Menu/Menu';
 
 
 import { Main } from './components/pages/Main/Main';
+import { About } from './components/pages/About/About';
 
 function App() {
 
@@ -19,7 +22,10 @@ function App() {
       <>
         <Menu isMenuShow={isMenuShow} toogleMenu={toogleMenu}/>
         <div className="App" style={ isMenuShow ? {display: "none"} : {}}>
-          <Main toogleMenu={toogleMenu}/>
+          <Routes>
+            <Route path='/' element={<Main toogleMenu={toogleMenu} />}/>
+            <Route path='/about' element={<About toogleMenu={toogleMenu} />}/>
+          </Routes>
         </div>
       </>
   );

@@ -1,24 +1,23 @@
 @import '../../../variables.scss';
 
 .header {
+    color: $secondary-color;
     width: 100%;
-    background: none;
-    height: 110px;
+    height: 100px;
+    
     display: flex;
+
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid $second-background-color;
-
-    >.btns {
-        > Button {
-            margin-right: 30px;
-        };
-    };
 }
 
-@media screen and (max-width: 600px) {
-    .nav {
-        display: none;
+.headerBtns {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    > button {
+        margin-left: 20px;
     }
 }
-

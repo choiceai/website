@@ -1,0 +1,26 @@
+@import '../../../variables.scss';
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+
+    > h3 {
+        color: $primary-color;
+    }
+
+    > p {
+        color: $secondary-color;
+    }
+}
+
+.aboutUs {
+    position: relative;
+    top: -200px;
+
+    background-color: $second-background-color;
+    border-radius: 30px;
+    padding: 10px 40px;
+
+    font-size: 2rem;
+
+}

@@ -1,4 +1,4 @@
-import { Header } from "../../element/Header/Header"
+import { MainHeader } from "../../element/MainHeader/MainHeader"
 import { MainOffer } from "../../element/MainOffer/MainOffer"
 import styles from "./Main.module.scss"
 import { SecondScreen } from "../../element/SecondScreen/SecondScreen"
@@ -22,7 +22,7 @@ const Main = ({ toogleMenu }) => {
     <div className={styles.main}>
         <section className={styles.welcomeSection}>
             <div className={styles.container}>
-                <Header toogleMenu={toogleMenu}/>
+                <MainHeader toogleMenu={toogleMenu}/>
                 <MainOffer />
             </div>
         </section>

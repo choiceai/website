@@ -34,7 +34,7 @@
     background-position: center;
 
     transform: translate(-1000px);
-    transition: 0.5s;
+    transition: 0.65s;
 
     &.open {
         transform: translate(0);
@@ -51,7 +51,7 @@
     justify-content: space-between;
 
     transform: translate(1000px);
-    transition: 0.5s;
+    transition: 0.65s;
 
     &.open {
         transform: translate(0);
