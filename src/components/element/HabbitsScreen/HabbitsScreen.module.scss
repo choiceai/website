@@ -9,6 +9,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    > img {
+      width: 23%;  
+    }
 }
 
 .yellow {

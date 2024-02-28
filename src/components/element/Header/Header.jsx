@@ -5,7 +5,7 @@ const Header = ({ toogleMenu }) => {
   return (
     <div className={styles.header}>
         <div className={styles.breadcrumbs}>
-            <p>Продукты - Меню - О нас</p>
+            <p>Продукты - Меню - Эта страница</p>
         </div>
         <div className={styles.headerBtns}>
             <NavButton style={ {backgroundColor: "#2C2C2E"} }>Скачать</NavButton>

@@ -21,6 +21,14 @@ i {
   padding: 0;
 }
 
+a[href^="mailto:"] {
+  color: $secondary-color;
+  font-size: 1.4rem;
+  margin-right: 20px;
+
+  text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

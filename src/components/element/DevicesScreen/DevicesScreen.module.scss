@@ -16,4 +16,8 @@
     display: flex;
     justify-content: space-around;
     padding-bottom: 30px;
+
+    > img {
+        width: 23%;
+    }
 }

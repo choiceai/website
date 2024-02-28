@@ -13,11 +13,11 @@ const Menu = ({ isMenuShow, toogleMenu }) => {
                 <div className={styles.aboveElements}>
                   <MenuHeader toogleMenu={toogleMenu}/>
                   <div className={styles.menuLinks}>
-                    <MenuNavButton>Блог</MenuNavButton>
+                    <MenuNavButton onClick={toogleMenu} to={"/blog"}>Блог</MenuNavButton>
                     <MenuNavButton onClick={toogleMenu} to={"/contact"}>Контакты</MenuNavButton>
                     <MenuNavButton onClick={toogleMenu} to={"/"}>Продукты</MenuNavButton>
                     <MenuNavButton onClick={toogleMenu} to={"/about"}>О нас</MenuNavButton>
-                    <MenuNavButton>Для бизнеса</MenuNavButton>
+                    <MenuNavButton onClick={toogleMenu} to={"/business"}>Для бизнеса</MenuNavButton>
                   </div>
                 </div>
                 <MenuFooter />

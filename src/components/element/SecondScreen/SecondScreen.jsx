@@ -18,7 +18,7 @@ const SecondScreen = () => {
                 Сhoice коучинг по здоровью
             </Card>
             <Card name={"Наставничество"} bg={bgCard2}>
-                Сhoice личное внимание к здоровью
+                Сhoice личное <br /> внимание к здоровью
             </Card>
             <Card name={"Персонализация"} bg={bgCard3}>
                 Сhoice анализ данных о теле

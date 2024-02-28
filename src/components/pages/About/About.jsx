@@ -1,7 +1,6 @@
-import { Header } from '../../element/Header/Header'
 import styles from './About.module.scss'
 
-
+import { Header } from '../../element/Header/Header'
 import { Footer } from "../../element/Footer/Footer"
 import { AboutUs } from '../../element/AboutUs/AboutUs'
 import { Mission } from '../../element/Mission/Mission'
@@ -10,6 +9,7 @@ import { Product } from '../../element/Product/Product'
 import { Ceo } from '../../element/Ceo/Ceo'
 import { Invest } from '../../element/Invest/Invest'
 import { News } from '../../element/News/News'
+import { Team } from '../../element/Team/Team'
 
 
 const About = ({ toogleMenu }) => {
@@ -76,7 +76,7 @@ const About = ({ toogleMenu }) => {
         <div className={styles.container}>
           <div className={styles.team}>
             <h3 className={styles.screenHeader}>Команда и мотивация</h3>
-            TODO
+            <Team />
           </div>
         </div>
       </section>

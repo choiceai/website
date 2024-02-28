@@ -1,0 +1,41 @@
+@import '../../../variables.scss';
+
+.oneContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 40px;
+    border: 1px solid $secondary-color;
+
+    padding: 20px 40px;
+
+    margin-bottom: 40px;
+}
+
+.contactHead {
+    color: $primary-color;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.contactContent {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    color: $secondary-color;
+}
+
+a[href^="mailto:"] {
+    color: $secondary-color;
+    font-size: 1.4rem;
+    margin-right: 20px;
+
+    text-decoration: none;
+
+    &:hover {
+        color: $primary-color;
+    }
+}
