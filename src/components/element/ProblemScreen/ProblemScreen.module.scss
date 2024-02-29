@@ -2,15 +2,15 @@
 
 .problemScreen {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .problemImage {
-    border-radius: 34px;
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     > img {
+        border-radius: 40px;
         width: 100%;
         height: 100%;
         overflow: hidden;
