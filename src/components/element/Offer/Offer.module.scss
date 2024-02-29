@@ -1,0 +1,55 @@
+@import '../../../variables.scss';
+
+.offer {
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    color: $secondary-color;
+}
+
+.offerName {
+    border: 1px solid $gray;
+    border-radius: 24px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.offerDescription {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.offerItems {
+    width: 100%;
+    
+}
+
+.offerItem {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid $primary-color;
+    border-radius: 34px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+
+    > img {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    > p {
+        margin-right: 10px;
+    }
+}
+
+.yellow {
+    color: $primary-color;
+}
+

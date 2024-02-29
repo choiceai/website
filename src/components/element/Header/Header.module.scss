@@ -1,0 +1,23 @@
+@import '../../../variables.scss';
+
+.header {
+    color: $secondary-color;
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerBtns {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    > button {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+@import '../../../variables.scss';
+
+.mainHeader {
+    width: 100%;
+    background: none;
+    height: 110px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid $second-background-color;
+
+    >.btns {
+        > Button {
+            margin-right: 30px;
+        };
+    };
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+}
+

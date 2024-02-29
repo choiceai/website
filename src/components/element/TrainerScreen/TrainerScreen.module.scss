@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+
+.trainerScreen {
+    color: $primary-color;
+    font-size: 1.6rem;
+
+}
+
+.firstHalfTrainer, .secondHalfTrainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    > img {
+        width: 23%;
+    }
+}
+
+.white {
+    color: $secondary-color
+}

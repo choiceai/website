@@ -1,0 +1,38 @@
+@import '../../../variables.scss';
+
+.product {
+    padding: 50px 0;
+    width: 100%;
+}
+
+.productHead {
+    font-size: 3rem;
+    color: $primary-color;
+}
+
+.productUnderHead {
+    margin-top: -30px;
+
+    font-size: 2rem;
+    color: $secondary-color;
+    font-weight: 500;
+
+    width: 400px;
+}
+
+.productContent {
+    margin-top: 100px;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: $secondary-color;
+    font-size: 1.3rem;
+}
+
+.productDesc {
+    width: 60%;
+}

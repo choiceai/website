@@ -1,0 +1,34 @@
+@import '../../../variables.scss';
+
+.starNavigation {
+    border-radius: 34px;
+    height: 50px;
+    background-color: $background-color;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    align-items: center;
+
+    > ul {
+        margin: 0;
+        padding: 0;
+        > li {
+            list-style-type: none;  
+
+            > a {
+                font-size: 1.4rem;
+                text-decoration: none;
+                color: $primary-color;
+                transition: 150ms;
+
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+
+            > img {
+                width: 80%;
+            }
+        }
+    }
+}

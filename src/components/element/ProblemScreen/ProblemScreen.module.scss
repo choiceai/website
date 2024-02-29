@@ -1,0 +1,50 @@
+@import '../../../variables.scss';
+
+.problemScreen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.problemImage {
+    width: 450px;
+    height: 450px;
+    > img {
+        border-radius: 40px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+.problemTabs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > button {
+        margin-top: 10px;
+        background-color: $second-background-color;
+        height: 50px;
+        width: 100%;
+        border: none;
+        border-radius: 34px;
+        padding: 10px 20px;
+        color: $secondary-color;
+
+        &.activeProblem {
+            border: 1px solid $primary-color;
+            color: $primary-color;
+        }
+    }
+
+    > h1 {
+        color: $secondary-color;
+    }
+
+}
+
+.yellow {
+    color: $primary-color;
+}

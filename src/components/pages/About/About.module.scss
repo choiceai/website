@@ -1,0 +1,115 @@
+@import '../../../variables.scss';
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.screenHeader {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: $secondary-color;
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+
+.aboutUsSection {
+    margin-top: 250px;
+    margin-bottom: 60px;
+
+    background-image: url('../../../img/aboutUsBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 43px;
+
+    height: 580px;
+
+    > h1 {
+        color: $second-background-color;
+    }
+}
+
+.missionSection {
+    margin-bottom: 100px;
+}
+
+.missionText {
+    margin-top: 100px;
+    background-color: $second-background-color;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.productSection {
+
+    background-image: url('../../../img/productBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 43px;
+
+    height: 580px;
+
+}
+
+.ceoSection {
+    margin-bottom: 60px;
+}
+
+.roadmapSection {
+    background-image: url('../../../img/roadmap.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 450px;
+
+    margin-bottom: 60px;
+
+}
+
+.investSection {
+    padding: 30px 0;
+    background-image: url('../../../img/investBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 450px;
+
+    margin-bottom: 60px;
+
+}
+
+.teamSection {
+    margin-bottom: 80px;
+}
+
+.newsSection {
+    margin-bottom: 80px;
+}
+
+.footerSection {
+    width: 100vw;
+    height: 180px;
+    background-color: $second-background-color;
+    border-radius: 43px 43px 0 0 ;
+
+    .container {
+        height: 100%;
+    }
+    
+}
+
+.footerInMain {
+    height: 100%;
+}
